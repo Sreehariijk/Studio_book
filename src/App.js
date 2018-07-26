@@ -9,12 +9,12 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <div className="md-grid ">
+           
             <Switch>
               <Route exact path='/' component={AddEmployees} />
               <Route exact path='/ViewPage' component={ViewPage} />
             </Switch>
-          </div>
+           
         </div>
       </Router>
     );

@@ -15,7 +15,7 @@ export default class ViewPage extends React.Component {
   render() {
     const { firstname,lastname,id,date,email,number,des} = this.props;
     return (
-      <div>
+      <div >
 
         <DataTable plain>
             <TableBody>

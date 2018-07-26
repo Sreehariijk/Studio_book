@@ -3781,18 +3781,27 @@ a.md-btn {
 body {
   background: white;
   margin: 0;
-  padding: 0;
-  background-image: url("vista.jpg"); }
+  padding: 0; }
 
 ul {
   margin: 12px 0; }
-
-.emp {
-  color: blue; }
 
 .app {
   text-align: center;
   text-decoration-style: line-through; }
 
 .tab {
-  font-family: Georgia, 'Times New Roman', Times, serif; }
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold; }
+
+.md-grid {
+  font-weight: bold;
+  border: 2px solid #cccccc;
+  color: #ff3b9d; }
+
+.md-grid {
+  background-image: url("green.jpg"); }
+
+h2 {
+  background-image: url("green.jpg");
+  color: beige; }

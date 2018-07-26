@@ -1,34 +1,45 @@
 @import 'react-md/src/scss/react-md';
-
+ 
 @include react-md-everything;
+ 
 @include react-md-buttons;
-$md-btn-include-raised: true !default;
-$md-btn-dark-theme-hover-color: rgba($md-btn-dark-theme-base-color, .12) !default;
+ 
+ 
 body {
   background: white;
   margin: 0;
   padding: 0;
-  background-image: url("vista.jpg");
+    
+  //background-image: url("vista.jpg");
   
 }
 
 ul {
   margin: 12px 0;
 } 
-.emp{
-  color : blue;
-}
+ 
  
 .app{
-
-   
-    text-align: center;
+text-align: center;
     text-decoration-style: line-through;
 
 }
 .tab{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  
-
+  font-weight: bold;
 }
+.md-grid{
+ font-weight: bold;
+border: 2px solid #cccccc;
+color: darken(hotpink, 9%);
+}
+.md-grid{
+   
+    background-image: url("green.jpg");
+}
+h2{
+  background-image: url("green.jpg");
+  color:beige
+}
+
  
