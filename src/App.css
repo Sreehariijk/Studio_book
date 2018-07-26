@@ -10,8 +10,8 @@
 .App-header {
   background-color: #222;
   height: 150px;
-  padding: 20px;
-  color: white;
+  padding: 100px;
+  color: darkgrey
 }
 
 .App-title {
@@ -25,4 +25,12 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+
+Accordion.Cultural Fest{
+  background-color: lightskyblue;
+}
+.chord{
+  color: blue;
 }
