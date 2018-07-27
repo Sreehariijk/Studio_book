@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+ 
+  background-color: none;
 }
 
 .App-logo {
@@ -26,3 +28,12 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/*.content-section implementation{
+  background-image: url('./color.jpg');
+}*/
+/*
+img{
+  width:1500px;
+  height:200px;
+}*/
