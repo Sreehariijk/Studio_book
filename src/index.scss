@@ -1,7 +1,31 @@
 @import 'react-md/src/scss/react-md';
-
+@import '~globals';
 @include react-md-everything;
 
 body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('./container/BG.jpg'); 
+    h1{
+        margin: 0;
+    }
+  }
+
+
+.badges {
+  &__badge-group .md-badge-container {
+    margin: 1em;
+  }
+
+  &__copyright {
+    padding: 4px 8px 12px;
+  }
+
+  &__copyright__badge {
+    font-size: 16px;
+  }
+
   margin: 0;
+
 }
