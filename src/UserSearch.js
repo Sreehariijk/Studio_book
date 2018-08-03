@@ -10,7 +10,7 @@ export default class UserSearch extends Component {
     constructor() {
         super();
         this.state = {
-            
+            users:[],
         }; 
     }
 
