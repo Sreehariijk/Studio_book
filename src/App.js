@@ -17,8 +17,17 @@ import Edit from './Edit';
 import LoginPage from './container/LoginPage';
 //import NewsFeed from './container/NewsFeed';
 import NewsFeedPage from './container/NewsFeedPage';
-import './App.css';
+
+
+// import Event from './Event.js';
+import Birthday from './Birthday.js';
+import  color from '../src/color.jpg';
+import 'primereact/resources/themes/omega/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+
 import UserSearch from './UserSearch';
+
 
 class App extends Component {
     render() {
@@ -33,13 +42,19 @@ class App extends Component {
                 <Route exact path="/Cog" component={Cog}/> 
                 <Route exact path="/" component={LoginPage}/>
         <Route exact path="/dashboard" component={NewsFeedPage}/>
+
+         <Route exact path="/birthday" component={Birthday}/>
+        
         <Route exact path="/Search" component={UserSearch} />
         <Route exact path="/Edit" component={Edit} />
-          </Switch>
-               </Router>
-            
-        );
-    }
+       </Switch>
+      </Router> 
+
+    );
+  }
+
+         
+
 }
 export default App;
 

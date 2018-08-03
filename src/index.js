@@ -6,13 +6,10 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import App from './containers/App';
 import registerServiceWorker from './registerServiceWorker';
-import 'primereact/resources/themes/omega/theme.css';
-import 'primereact/resources/primereact.min.css';
-import 'primeicons/primeicons.css';
+import 'font-awesome/css/font-awesome.min.css';
+
 import WebFontLoader from 'webfontloader';
-import 'primereact/resources/themes/omega/theme.css';
-import 'primereact/resources/primereact.min.css';
-import 'primeicons/primeicons.css';
+
 import {Provider} from "react-redux";
 import configureStore from "./store/configureStore"
 
