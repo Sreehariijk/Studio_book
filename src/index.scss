@@ -1,5 +1,5 @@
 @import 'react-md/src/scss/react-md';
-
+@import '~globals';
 @include react-md-everything;
 
 body {
@@ -11,7 +11,7 @@ body {
         margin: 0;
     }
   }
-  @import '~globals';
+
 
 .badges {
   &__badge-group .md-badge-container {
@@ -25,4 +25,7 @@ body {
   &__copyright__badge {
     font-size: 16px;
   }
+
+  margin: 0;
+
 }

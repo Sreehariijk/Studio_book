@@ -897,8 +897,8 @@ html {
   .md-avatar .md-icon {
     color: inherit; }
   .md-avatar--icon-sized {
-    height: 12;
-    width: 12; }
+    height: 24px;
+    width: 24px; }
 
 .md-avatar-img {
   height: 100%;
@@ -907,7 +907,7 @@ html {
 .md-avatar-content {
   align-items: center;
   display: flex;
-  font-size: 12;
+  font-size: 24px;
   height: 100%;
   justify-content: center;
   width: 100%; }
@@ -1130,13 +1130,13 @@ a.md-btn {
 
 .md-btn--floating {
   height: 56px;
-  padding: 22px;
+  padding: 16px;
   transition-property: background, box-shadow, color;
   width: 56px; }
 
 .md-btn--floating-mini {
   height: 40px;
-  padding: 14px;
+  padding: 8px;
   width: 40px; }
 
 .md-btn--fixed {
@@ -1311,14 +1311,14 @@ a.md-btn {
   margin-right: 4px;
   position: absolute;
   right: 0;
-  top: 10px;
+  top: 4px;
   z-index: 1; }
 
 .md-chip-icon--rotate {
   transform: rotate3d(0, 0, 1, 45deg); }
 
 .md-chip--remove {
-  padding-right: 20px; }
+  padding-right: 32px; }
 
 .md-chip-text--contact {
   font-size: 14px; }
@@ -1852,7 +1852,7 @@ tbody .md-table-row {
 
 .md-icon {
   color: rgba(0, 0, 0, 0.54);
-  font-size: 12;
+  font-size: 24px;
   text-align: center;
   transition-duration: 0.15s;
   transition-property: color;
@@ -1860,8 +1860,8 @@ tbody .md-table-row {
 
 svg.md-icon {
   fill: currentColor;
-  height: 12;
-  width: 12; }
+  height: 24px;
+  width: 24px; }
 
 .md-icon-separator {
   align-items: center;
@@ -1959,7 +1959,7 @@ svg.md-icon {
   flex-grow: 1;
   overflow: hidden; }
   .md-tile-content--left-icon {
-    padding-left: 44px; }
+    padding-left: 32px; }
   .md-tile-content--left-avatar {
     padding-left: 16px; }
   .md-tile-content--right-padding {
@@ -1968,7 +1968,7 @@ svg.md-icon {
 .md-tile-addon {
   line-height: 1.42857; }
   .md-tile-addon--icon {
-    height: 12; }
+    height: 24px; }
   .md-tile-addon--avatar {
     height: 40px; }
 
@@ -2004,7 +2004,7 @@ svg.md-icon {
       width: 100%; }
 
 .md-tile-content--left-button {
-  padding-left: 48px; }
+  padding-left: 24px; }
 
 .md-list-control--right {
   justify-content: flex-end; }
@@ -2239,7 +2239,7 @@ svg.md-icon {
   z-index: 12; }
 
 .md-picker--inline-icon {
-  left: 28px; }
+  left: 40px; }
 
 .md-picker-control {
   padding: 0; }
@@ -2469,8 +2469,8 @@ svg.md-icon {
 
 .md-progress {
   display: block;
-  margin-bottom: 100;
-  margin-top: 100; }
+  margin-bottom: 1em;
+  margin-top: 1em; }
 
 .md-progress--circular-determinate {
   transition-duration: 0.15s;
@@ -2856,8 +2856,8 @@ svg.md-icon {
     margin-top: 16px; } }
 
 .md-slider-container .md-icon {
-  margin-bottom: 18px;
-  margin-top: 18px; }
+  margin-bottom: 12px;
+  margin-top: 12px; }
 
 .md-slider-ind {
   display: block;
@@ -3102,8 +3102,8 @@ svg.md-icon {
     font-size: 13px;
     line-height: 13px; }
   .md-icon--tab {
-    margin-bottom: 6px;
-    margin-top: -4px; } }
+    margin-bottom: 12px;
+    margin-top: 2px; } }
 
 .md-text-field-container {
   position: relative; }
@@ -3215,7 +3215,7 @@ svg.md-icon {
   font-size: 12px; }
 
 .md-floating-label--icon-offset {
-  left: 28px; }
+  left: 40px; }
   @media screen and (min-width: 1025px) {
     .md-floating-label--icon-offset {
       left: 36px; } }
@@ -3229,10 +3229,10 @@ svg.md-icon {
   justify-content: flex-end; }
 
 .md-text-field-message-container--left-icon-offset {
-  padding-left: 28px; }
+  padding-left: 40px; }
 
 .md-text-field-message-container--right-icon-offset {
-  padding-right: 28px; }
+  padding-right: 40px; }
 
 .md-text-field-message {
   color: inherit;
@@ -3277,14 +3277,14 @@ svg.md-icon {
   right: 0; }
 
 .md-text-field--inline-indicator {
-  width: calc(100% - 12); }
+  width: calc(100% - 24px); }
 
 .md-password-btn {
   background: transparent;
   border: 0;
-  height: 12;
+  height: 24px;
   padding: 0;
-  width: 12; }
+  width: 24px; }
   .md-password-btn:not(.md-password-btn--focus):focus {
     outline-style: none; }
   .md-password-btn .md-icon {
@@ -3331,7 +3331,7 @@ svg.md-icon {
   .md-floating-label--floating {
     transform: translate3d(0, 16px, 0); }
   .md-text-field-icon--positioned {
-    margin-bottom: 19.5px; }
+    margin-bottom: 13.5px; }
   .md-text-field-inline-indicator {
     top: 9px; }
     .md-text-field-inline-indicator--floating {
@@ -3645,49 +3645,5 @@ svg.md-icon {
   .md-background--secondary-hover:hover {
     background: rgba(255, 64, 129, 0.9); } }
 
-.md-progress--circular-determinate {
-  transition-duration: 0.15s;
-  transition-property: transform; }
-
-.md-progress--circular-indeterminate {
-  animation-duration: 2.4s;
-  animation-iteration-count: infinite;
-  animation-name: md-circular-progress;
-  animation-timing-function: linear; }
-
-.md-circular-progress-path {
-  fill: none;
-  stroke: #ff4081;
-  stroke-dasharray: 187px; }
-
-.md-circular-progress-path--animated {
-  animation-duration: 2.4s;
-  animation-iteration-count: infinite;
-  animation-name: md-circular-progress-dash;
-  animation-timing-function: ease-ine-out;
-  stroke-dashoffset: 0; }
-
-@keyframes md-circular-progress {
-  0% {
-    transform: rotate(0deg); }
-  50% {
-    transform: rotate(135deg); }
-  75% {
-    transform: rotate(450deg); }
-  100% {
-    transform: rotate(720deg); } }
-
-@keyframes md-circular-progress-dash {
-  0% {
-    stroke-dashoffset: 187px; }
-  50% {
-    stroke-dashoffset: 46.75px; }
-  100% {
-    stroke-dashoffset: 187px; } }
-
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif; }
-  body h1 {
-    margin: 0; }
+  margin: 0; }
