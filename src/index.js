@@ -6,6 +6,9 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import App from './containers/App';
 import registerServiceWorker from './registerServiceWorker';
+import 'primereact/resources/themes/omega/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
 import WebFontLoader from 'webfontloader';
 import 'primereact/resources/themes/omega/theme.css';
 import 'primereact/resources/primereact.min.css';
@@ -27,6 +30,7 @@ ReactDOM.render(
 <Provider store={store}>
 <App />
 </Provider>, document.getElementById('root'));
+
 
 
 registerServiceWorker();
