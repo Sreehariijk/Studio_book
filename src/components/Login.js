@@ -3,7 +3,7 @@ import { TextField } from 'react-md'; 
 import { Card, CardTitle, CardText} from 'react-md';
 import { Button } from 'react-md';
 import {connect} from "react-redux";
-import loginAction from "./actions/loginAction";
+import loginAction from "../actions/loginAction";
 const style = { width: 400};
 class Login extends Component {
 handleLogin(){ 

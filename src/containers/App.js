@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
+import '../App.css';
 import WebFontLoader from 'webfontloader';
 import {BrowserRouter as Router ,Route, Switch } from 'react-router-dom';
-import LoginPage from "./LoginPage"; 	
-import HomePage from "./HomePage"; 	 
-import DashBoard from "./DashBoard"; 
-import Edit from "./Edit";  
+import LoginPage from "../containers/LoginPage"; 	
+import HomePage from "../containers/HomePage"; 	 
+import DashBoard from "../containers/DashBoard"; 
+import Edit from "../components/Edit";  
 
  	WebFontLoader.load({
      	google: {

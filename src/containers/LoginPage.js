@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Login.css';
+import '../Login.css';
 import { SelectionControlGroup } from 'react-md';
-import Login from "./Login"; 	 
+import Login from "../components/Login"; 	 
 
 class LoginPage extends Component {
     constructor(props){

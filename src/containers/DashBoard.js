@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './Login.css';
-import Login from './Login'; 
+import '../Login.css';
+import Login from '../components/Login'; 
 import { Card, CardTitle, CardText} from 'react-md';
 import { TextField } from 'react-md'; 
 import { Button, SVGIcon } from 'react-md';
 import { TabsContainer, Tabs, Tab } from 'react-md';
-import Add from './Add';
-import View from './View';
+import Add from '../components/Add';
+import View from '../components/View';
 import {connect} from "react-redux";
 
 const style = { width: 400};

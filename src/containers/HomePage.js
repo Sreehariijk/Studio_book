@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './Login.css';
+import '../Login.css';
 import { Card, CardTitle, CardText} from 'react-md';
 import { TextField } from 'react-md'; 
 import { Button, SVGIcon } from 'react-md';
-import DashBoard from "./DashBoard";
+import DashBoard from "../containers/DashBoard";
 import {connect} from "react-redux";
  
 const logOutStyle = { display:"inline-block",float: "right"};

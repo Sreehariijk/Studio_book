@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
-import './Login.css';
-import Login from './Login'; 
+import '../Login.css';
+import Login from '../components/Login'; 
 import { Card, CardTitle, CardText} from 'react-md';
 import { TextField } from 'react-md'; 
 import { Button, SVGIcon } from 'react-md';

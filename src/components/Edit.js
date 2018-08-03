@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
-import './Login.css';
+import '../Login.css';
 import { Button, SVGIcon } from 'react-md';
 import { TextField } from 'react-md'; 
 import { Card, CardTitle, CardText, Slider } from 'react-md';
